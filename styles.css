@@ -1,0 +1,69 @@
+/* Reset some default styles for consistency */
+body, h1, h2, h3, p, ul, li {
+    margin: 0;
+    padding: 0;
+}
+
+/* Basic styling for the header and navigation */
+header {
+    background-color: #333;
+    color: #fff;
+    text-align: center;
+    padding: 10px;
+}
+
+header h1 {
+    font-size: 28px;
+}
+
+nav ul {
+    list-style: none;
+    margin-top: 10px;
+}
+
+nav li {
+    display: inline;
+    margin: 0 10px;
+}
+
+nav a {
+    color: #fff;
+    text-decoration: none;
+}
+
+/* Basic styling for the main content sections */
+main {
+    padding: 20px;
+}
+
+section {
+    margin-bottom: 30px;
+}
+
+/* Styling for the product grid */
+.product-grid {
+    display: flex; /* Use flexbox */
+    flex-wrap: wrap; /* Wrap the items to the next line if necessary */
+    justify-content: space-between; /* Spread the items evenly in the container */
+    gap: 20px;
+}
+
+.product {
+    text-align: center;
+    flex-basis: calc(50% - 20px); /* Each item should take 50% of the available space minus the gap */
+}
+
+.product img {
+    width: 100%;
+    max-width: 200px;
+}
+
+/* Styling for the footer */
+footer {
+    background-color: #333;
+    color: #fff;
+    text-align: center;
+    padding: 10px;
+}
+
+/* Add more CSS styles and customize as needed for your specific business */
